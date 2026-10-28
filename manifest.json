@@ -12,6 +12,6 @@
     }
   ],
   "browser_specific_settings": {
-    "gecko": { "id": "insta-grid@kats.dev" }
+    "gecko": { "id": "insta-grid@kats.dev", "data_collection_permissions": { "required": ["none"] } }
   }
 }
