@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Insta Grid Feed",
+  "version": "0.2",
+  "description": "Shows the Instagram home feed as a grid.",
+  "content_scripts": [
+    {
+      "matches": ["*://www.instagram.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": { "id": "insta-grid@kats.dev" }
+  }
+}
